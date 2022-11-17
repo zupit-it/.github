@@ -1,0 +1,16 @@
+name: User Story
+description: Create a user story
+title: "As an [actor], I want to [action], so that [outcome]."
+labels: ["user story"]
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+    validations:
+      required: true
