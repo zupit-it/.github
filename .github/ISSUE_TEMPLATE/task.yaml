@@ -1,0 +1,21 @@
+name: Task
+description: Create a task
+title: "As an [actor], I want to [action], so that [outcome]."
+labels: ["task"]
+
+body:
+  - type: textarea
+    attributes:
+      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in pretium nisi, ac aliquet lectus. Etiam pulvinar, est id fermentum finibus, nisi ligula vestibulum orci, non hendrerit velit sapien in nisl. Donec posuere orci vitae orci condimentum, at interdum erat consectetur. Maecenas eget neque nec erat commodo pellentesque quis rutrum tellus. Suspendisse placerat enim eget turpis ornare gravida. Sed semper mauris et ante bibendum, eget commodo augue rutrum. Phasellus fermentum sed nisi a placerat.
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      value: |
+        - [ ] Alpha
+        - [ ] Beta
+        - [ ] Gamma
+      label: Acceptance Criteria
+    validations:
+      required: true
