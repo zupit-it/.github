@@ -17,11 +17,7 @@
 ## Documentation
 - [ ] Are the changes well-documented and easy to understand?
 - [ ] Are there any missing or outdated comments in the code?
-- [ ] Is the PR description clear and detailed enough to provide necessary context?
-
-## Security
-- [ ] Are there any potential security vulnerabilities introduced by the changes?
-- [ ] Have the necessary security measures been taken (e.g., input validation, data sanitization)?
+- [ ] Is the PR title clear and detailed enough to provide necessary context?
 
 ## Performance
 - [ ] Do the changes have any impact on the system's performance?
