@@ -6,3 +6,4 @@
 - [ ] Does the PR implement the intended functionality or fix the issue described in the title and description?
 - [ ] Is the PR title clear and detailed enough to provide necessary context?
 - [ ] Have the changes passed the CI/CD pipeline?
+- [ ] Will the changes have any adverse effects on other parts of the system and do they work well with other existing features?
